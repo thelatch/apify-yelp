@@ -23,9 +23,9 @@
             "type": "integer",
             "description": "How many search results (eq. Yelp bussinesses) should be processed per search query",
             "editor": "number",
-            "default": 10,
+            "default": 40,
             "minimum": 1,
-            "maximum": 100
+            "maximum": 4000
         },
         "directUrls": {
             "title": "Direct Yelp page URLs",
